@@ -1,3 +1,4 @@
+@echo off
 REM ▼ コマンドプロンプトを UTF-8 に変更
 CHCP 65001
 mysql -h localhost -u root -D lightbox --password= < load-data-csv.sql
