@@ -1,6 +1,6 @@
 # subject-1008-mysql
 
-- 実行環境が UTF8 ならば、SQL UTF8 で
+- 実行環境が UTF8 ならば、SQL は UTF8 で
 
 - 通常コマンドプロンプトならば SQLは SHIFT_JIS で
 
