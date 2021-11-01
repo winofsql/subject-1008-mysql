@@ -9,6 +9,17 @@
 SHOW CHARACTER SET
 ```
 
+## LOAD DATA ( CHARSET 指定 )
+```sql
+LOAD DATA INFILE
+    'C:/app/workspace/subject-1101/subject-1008-mysql/data01.932'
+ INTO TABLE 社員マスタ
+    CHARACTER SET cp932
+    FIELDS TERMINATED BY ','
+    OPTIONALLY ENCLOSED BY '"'
+    LINES TERMINATED BY '\r\n';
+```
+
 ## コマンドプロンプトのキャラクタセット変更
 ```bat
 REM ▼ コマンドプロンプトを UTF-8 に変更
