@@ -19,3 +19,12 @@ mysql -h localhost -u root -D lightbox --password= < into-outfile-csv.sql
 REM ▼ コマンドプロンプトを SHIFT-JIS に戻す
 REM CHCP 932
 ```
+
+## data01.932
+```csv
+"1001","浦岡 友也"
+"1002","山村 洋代"
+"1003","多岡 冬行"
+"1004","高田 冬美"
+"1005","内高 友之"
+```
